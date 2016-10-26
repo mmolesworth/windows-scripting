@@ -1,1 +1,1 @@
-for /R c:\source %%f in (*.xml) do copy %%f x:\destination\
+for /R <SOURCE> %%f in (*.xml) do copy %%f <DESTINATION>
